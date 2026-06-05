@@ -1,0 +1,32 @@
+Pointers are basically pointers pointing at the memory locations.
+
+The addresses of memory locations are written in the Hexadecimal number system and starts with 0x
+
+'&' : This Ampersand symbol is used as "address of" operator.
+
+eg:   let, "a = 10" be some variable, 
+      then, '&a' will be some memory location address in hexadecimal format.
+
+
+Pointers :
+
+A Pointer is a special variable that "stores the address of another variable."
+
+examples:
+    int *ptr = &a;
+    float *ft = &a;
+    double *dbl = &a;
+
+Size of all the pointers in 64-bit system is "8 bytes".
+
+
+
+Pointer to the Pointer Variable:
+
+Example:
+
+    int a = 10;        -->   Normal Variable
+    int *ptr = &a;     -->   Pointer to a variable
+    int **pptr = &ptr; -->   Pointer to a Pointer.
+
+Size of all pointers to the pointers are also "8 bytes".
