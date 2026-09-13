@@ -6,7 +6,7 @@ int main(){
     int *ptr = &a;
     // int * ptr = &a;
     // int* ptr = &a;
-    // int*pt = &a;
+    // int*ptr = &a;
 
     int **pptr = &ptr;
 
@@ -17,9 +17,11 @@ int main(){
     cout << &pi << " = " << ptr2 << endl;
     cout << &ptr << " = " << pptr << endl;
 
-    cout << sizeof(ptr) << endl;
-    cout << sizeof(ptr2) << endl;
-    cout << sizeof(pptr) << endl;
+    cout << sizeof(ptr) << endl;  // 8 bytes
+    cout << sizeof(ptr2) << endl;  // 8 bytes
+    cout << sizeof(pptr) << endl;  // 8 bytes
+
+    cout << &ptr << " = " << pptr << endl;
 
     return 0;
 }

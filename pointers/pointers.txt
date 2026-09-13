@@ -30,3 +30,32 @@ Example:
     int **pptr = &ptr; -->   Pointer to a Pointer.
 
 Size of all pointers to the pointers are also "8 bytes".
+
+
+
+Dereference Operator:
+
+    Gets the value of the variable pointed by any pointer.
+
+    * operator lets us directly access & modify the value of variable.
+
+    Mechanism:
+
+        let,
+            int a = 10;
+            int *ptr = &a;
+
+        since,  ptr = address of 'a'
+
+                *(address) = value stored at that memory location
+
+                implies,
+                        *(ptr) = value stored at that memory location (10)
+        
+        basically:
+            int a = 10;
+            int *ptr = &a;
+
+            cout << *ptr;  // 10
+            cout << ptr;   // address of 'a'
+            cout << &ptr;  // address of 'ptr'
