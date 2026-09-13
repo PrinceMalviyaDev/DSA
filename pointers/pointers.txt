@@ -59,3 +59,12 @@ Dereference Operator:
             cout << *ptr;  // 10
             cout << ptr;   // address of 'a'
             cout << &ptr;  // address of 'ptr'
+
+
+NULL Pointer:
+
+We assign NULL value to a pointer to show that it doesn't point to any location.
+
+        int *ptr = NULL;  // 0 address
+    
+    Dereferencing null ptr is not possible as it'll result in error.
