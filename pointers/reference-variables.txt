@@ -1,0 +1,10 @@
+Reference variable:
+ 
+    Reference variable is an alternative name (alias) of already existing variable.
+
+        int a = 5;
+        int &b = a;
+
+    a & b refer to the same location in memory.
+
+Note -> Reference variable must be initialized at the time of creation.
