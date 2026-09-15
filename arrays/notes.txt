@@ -2,3 +2,14 @@ Arrays :
     Linear collection of same type of elements that are stored together in contiguous memory spaces.
 
     Memory is statically allocated at the compile time.
+
+
+Arrays are passed by reference:
+
+    void printArr(int arr[]){...}
+               |
+            same as
+               |
+    void printArr(int *arr){...}
+
+    array's name can be treated as pointer to that array, it basically stores the address of the first index.
