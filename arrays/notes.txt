@@ -1,0 +1,4 @@
+Arrays : 
+    Linear collection of same type of elements that are stored together in contiguous memory spaces.
+
+    Memory is statically allocated at the compile time.
